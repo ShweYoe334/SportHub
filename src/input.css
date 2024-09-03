@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.roboto-condensed-<uniquifier> {
+    @apply font-roboto-condensed;
+    font-optical-sizing: auto;
+    font-weight: <weight>; /* Replace <weight> with your desired value, e.g., 400, 700 */
+    font-style: normal;
+  }
+  
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
